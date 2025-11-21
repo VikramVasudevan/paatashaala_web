@@ -44,6 +44,7 @@
       border-radius: 0.75rem;
       text-decoration: none;
       transition: background 0.3s ease;
+      margin: 0.5rem;
     }
     .cta-button:hover {
       background: #f4511e;
@@ -53,6 +54,14 @@
       font-size: 0.9rem;
       color: #777;
     }
+    footer a {
+      color: #555;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -60,13 +69,26 @@
     <h1>📚 Welcome to Paatashaala</h1>
     <p>
       Learn, practice, and explore knowledge through interactive quizzes.<br />
-      Download the Paatashaala Flutter app and start your journey today!
+      Download the Paatashaala app and start your journey today!
     </p>
-    <a class="cta-button" href="https://play.google.com/store/apps/details?id=org.ekahaa.paatashaalav2" target="_blank">
+
+    <!-- Google Play -->
+    <a class="cta-button" 
+       href="https://play.google.com/store/apps/details?id=org.ekahaa.paatashaalav2" 
+       target="_blank">
       Get it on Google Play
     </a>
+
+    <!-- App Store (replace URL once your app is live) -->
+    <a class="cta-button" 
+       href="https://apps.apple.com/us/app/paatashaala/id6755523200" 
+       target="_blank">
+      Download on the App Store
+    </a>
+
     <footer>
-      &copy; 2025 Paatashaala. All rights reserved.
+      &copy; 2025 Paatashaala. All rights reserved. <br />
+      <a href="mailto:vasudevan.vikram@gmail.com">Contact Support</a>
     </footer>
   </div>
 </body>
